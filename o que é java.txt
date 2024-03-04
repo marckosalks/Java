@@ -1,0 +1,128 @@
+O QUE É JAVA:
+
+Lingugen de programação orientada a objetos
+programas são organizados em metodos e classes,
+linguagem fortemente tipada similar a um typescript
+
+O QUE É JVW ?
+
+Maquina virtual onde o java é interpretado e traduzido
+para rodar em diversos sistemas operacionais, gerenciamento
+de lixos e etc.
+
+tips: Ctrl + / para comentar linha
+
+
+SINTAX BÁSICA:
+
+- Variáveis{
+	tipo nome = valor;
+	
+	int cep = 12345678
+	
+	char letra = 'l'
+
+	String calma = "Calabreso"
+
+	var undefined = não preciso declarar o tipo de dados 
+}
+
+TIPOS PRIMITIVOS:
+
+- byte, short, int, long
+- boolean
+- char
+- double
+- float colocar F no final 
+- String é uma classe e não um tipo primitivo
+
+CODICIONAIS:
+
+Bem similar as demais linguagens,
+
+If() 
+
+
+
+VETOR:
+
+Temos duas formas de fazer a declaração de um array 
+
+essas duas formas não são dinamicas
+
+
+      tipo[] nome;
+
+--> primeira:
+
+int[] chamada = {0,1,2,3,4,5} 
+
+
+--> segunda:
+
+char[] b-a-ba = new char[3]
+
+b-a-ba[0] = 'A'
+
+b-a-ba[1] = 'B'
+
+b-a-ba[2] = 'C'
+
+
+ARRAYLIST:
+
+Armazenar daddos a lista de forma dinamica,  biblioteca nativa
+do java util para armazenar valores de forma dinamica. Nao 
+podemos usar o tipos primitivos
+
+podemos usar os metodos de array como:
+
+-get 
+-add
+-remove
+-size
+
+
+LOOPS:
+
+São exatamente iguais as de mais liguagens tendo 
+while, do while e for , mas tambem conta com o
+for each:
+
+for(tipo coisa : coisas){
+
+}
+
+CASTING:
+
+Conversão de valores por exemplo tenho uma variavel
+do tipo double gostaria que ela virasse um inteiro 
+
+
+
+Conversão inplicita: eu pego um inteiro e passo a 
+um double, inplicito pois o double contem o intero
+
+
+int idade1  = 22;
+double idade 2 = idade1;
+
+logo
+
+idade2 = 22.0;
+
+Conversão explicita: eu pego um double e converto 
+para um inteiro ou seja estou avisando que eliminarei
+um pedaço do meu valor (no caso apos o ponto)
+
+
+idade 1 = (int) idade2;
+
+
+agora para para strings e caracteres podemos usar 
+metodos como String.valueOf() ou chart.At()
+
+
+
+
+
