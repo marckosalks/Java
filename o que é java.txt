@@ -1,5 +1,8 @@
 O QUE É JAVA:
 
+
+https://www.youtube.com/watch?v=EpXYPB1rv4w
+
 Lingugen de programação orientada a objetos
 programas são organizados em metodos e classes,
 linguagem fortemente tipada similar a um typescript
@@ -124,5 +127,14 @@ metodos como String.valueOf() ou chart.At()
 
 
 
+POO:
 
+O que é uma classe no java?
+
+modelamos os objetos atravez de atributos e metodos
+
+metodo estático não pode ser referenciado em um 
+contexto não estático
+ 
+ps: Estuda classe e objetos do zero plmds 
 
