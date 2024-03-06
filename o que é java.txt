@@ -173,7 +173,7 @@ subclasse herda(pode usar) todos os atributos e metodos da
  super classe,  como se fose um grupo maior que constitue
 um grupo menor.
 Toda subclasse é do tipo da super classe.
-Consigo herdar o construtor  de uma SUPER CLASSE
+Consigo herdar o construtor  de uma SUPER CLASSE, na sub classe
 
 
 SUPER CLASSE ANIMAL {
