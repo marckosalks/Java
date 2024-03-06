@@ -138,3 +138,78 @@ contexto não estático
  
 ps: Estuda classe e objetos do zero plmds 
 
+
+Construtores:
+
+metodos chamados para inicializar instacias da classe
+em questão, 
+
+Metodo chamado todas as vezes em que a clasesse for
+inicializada
+
+
+criar dois construtores para casos especificos, como 
+criar um usuário apenas usando nome ou criar usuário
+com nome e idade, logo cada construtor se aplica a 
+um cenário   
+
+
+Modificadores de Acesso:
+
+public ta para todo mundo, so posso ter uma classe 
+publica por projeto, e com o mesmo nome do arquivo 
+
+privite, apenas o get e o set consegue acessar 
+
+protected protege de pacotes de fora, ou seja 
+apenas do mesmo projeto, outras classes não 
+conseguem usar  
+
+
+
+Herança:
+
+subclasse herda(pode usar) todos os atributos e metodos da 
+ super classe,  como se fose um grupo maior que constitue
+um grupo menor.
+Toda subclasse é do tipo da super classe.
+Consigo herdar o construtor  de uma SUPER CLASSE
+
+
+SUPER CLASSE ANIMAL {
+
+	
+	Cachorro
+	Gato
+	Papagaio
+	Primata
+
+}
+
+Todos eles são animais, porem o cachorro 
+temn caracteristicas proprias que o papagaio
+não tem 
+
+
+SubClasse Cachorro {
+ 4 patas
+ rabo
+ late
+ mamifero
+}
+
+SubClasse Papagaio{
+  2 patas
+  2 asas
+  bota ovos
+  fala
+  assobia
+}
+
+
+Os dois são animais, porem se diferenciam
+quando comarados individualmente
+
+
+
+
